@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DataSovereign - Own Your Data</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+</head>
+<body>
+    <!-- Quantum Security Badge (Always Visible) -->
+    <div class="quantum-badge">
+        <div class="quantum-icon">
+            <i data-feather="shield"></i>
+        </div>
+        <div class="quantum-text">Quantum-Safe Encryption Active</div>
+        <div class="quantum-status"></div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    Data<span>Sovereign</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#dashboard" class="active">Dashboard</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#rights">Data Rights</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="container">
+            <!-- Dashboard Section -->
+            <section id="dashboard" class="section">
+                <h2 class="section-title">Your Data Dashboard</h2>
+                <p class="mb-2">Control what gets shared, when, and with whom. Your data is your digital DNA.</p>
+                
+                <div class="dashboard">
+                    <!-- Identity Data Category -->
+                    <div class="data-category-card fade-in delay-1">
+                        <div class="category-header">
+                            <div class="category-title">
+                                <i data-feather="user" class="icon"></i>
+                                Identity Data
+                            </div>
+                            <div class="category-value high-demand">
+                                $4.28/mo
+                                <i data-feather="trending-up" class="trend-icon"></i>
+                            </div>
+                        </div>
+                        <div class="sharing-controls">
+                            <div class="sharing-option" data-value="none">None</div>
+                            <div class="sharing-option active" data-value="partial">Partial</div>
+                            <div class="sharing-option" data-value="full">Full</div>
+                        </div>
+                        <div class="data-points">
+                            <div class="data-point">
+                                <div class="data-point-name">Age Range</div>
+                                <div class="data-point-value">Shared</div>
+                            </div>
+                            <div class="data-point">
+                                <div class="data-point-name">Gender</div>
+                                <div class="data-point-value">Shared</div>
+                            </div>
+                            <div class="data-point">
+                                <div class="data-point-name">Location</div>
+                                <div class="data-point-value">Not Shared</div>
+                            </div>
+                            <div class="data-point">
+                                <div class="data-point-name">Education</div>
+                                <div class="data-point-value">Shared</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Health Data Category -->
+                    <div class="data-category-card fade-in delay-2">
+                        <div class="category-header">
+                            <div class="category-title">
+                                <i data-feather="heart" class="icon"></i>
+                                Health Data
+                            </div>
+                            <div class="category-value">
+                                $7.15/mo
+                                <i data-feather="trending-up" class="trend-icon"></i>
+                            </div>
+                        </div>
+                        <div class="sharing-controls">
+                            <div class="sharing-option" data-value="none">None</div>
+                            <div class="sharing-option active" data-value="partial">Partial</div>
+                            <div class="sharing-option" data-value="full">Full</div>
+                        </div>
+                        <div class="data-points">
+                            <div class="data-point">
+                                <div class="data-point-name">Activity Level</div>
+                                <div class="data-point-value">Shared</div>
+                            </div>
+                            <div class="data-point">
+                                <div class="data-point-name">Sleep Patterns</div>
+                                <div class="data-point-value">Shared</div>
+                            </div>
+                            <div class="data-point">
+                                <div class="data-point-name">Medical History</div>
+                                <div class="data-point-value">Not Shared</div>
+                            </div>
+                            <div class="data-point">
+                                <div class="data-point-name">Fitness Goals</div>
+                                <div class="data-point-value">Shared</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Financial Data Category -->
+                    <div class="data-category-card fade-in delay-3">
+                        <div class="category-header">
+                            <div class="category-title">
+                                <i data-feather="dollar-sign" class="icon"></i>
+                                Financial Data
+                            </div>
+                            <div class="category-value high-demand">
+                                $9.42/mo
+                                <i data-feather="trending-up" class="trend-icon"></i>
+                            </div>
+                        </div>
+                        <div class="sharing-controls">
+                            <div class="sharing-option active" data-value="none">None</div>
+                            <div class="sharing-option" data-value="partial">Partial</div>
+                            <div class="sharing-option" data-value="full">Full</div>
+                        </div>
+                        <div class="data-points">
+                            <div class="data-point">
+                                <div class="data-point-name">Income Range</div>
+                                <div class="data-point-value">Not Shared</div>
+                            </div>
+                            <div class="data-point">
+                                <div class="data-point-name">Spending Habits</div>
+                                <div class="data-point-value">Not Shared</div>
+                            </div>
+                            <div class="data-point">
+                                <div class="data-point-name">Investment Profile</div>
+                                <div class="data-point-value">Not Shared</div>
+                            </div>
+                            <div class="data-point">
+                                <div class="data-point-name">Purchase History</div>
+                                <div class="data-point-value">Not Shared</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Device Data Category -->
+                    <div class="data-category-card fade-in delay-4">
+                        <div class="category-header">
+                            <div class="category-title">
+                                <i data-feather="smartphone" class="icon"></i>
+                                Device Data
+                            </div>
+                            <div class="category-value">
+                                $3.87/mo
+                                <i data-feather="trending-down" class="trend-icon"></i>
+                            </div>
+                        </div>
+                        <div class="sharing-controls">
+                            <div class="sharing-option" data-value="none">None</div>
+                            <div class="sharing-option active" data-value="partial">Partial</div>
+                            <div class="sharing-option" data-value="full">Full</div>
+                        </div>
+                        <div class="data-points">
+                            <div class="data-point">
+                                <div class="data-point-name">Device Type</div>
+                                <div class="data-point-value">Shared</div>
+                            </div>
+                            <div class="data-point">
+                                <div class="data-point-name">Operating System</div>
+                                <div class="data-point-value">Shared</div>
+                            </div>
+                            <div class="data-point">
+                                <div class="data-point-name">App Usage</div>
+                                <div class="data-point-value">Not Shared</div>
+                            </div>
+                            <div class="data-point">
+                                <div class="data-point-name">Browser History</div>
+                                <div class="data-point-value">Not Shared</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Location Data Category -->
+                    <div class="data-category-card fade-in delay-5">
+                        <div class="category-header">
+                            <div class="category-title">
+                                <i data-feather="map-pin" class="icon"></i>
+                                Location Data
+                            </div>
+                            <div class="category-value">
+                                $5.63/mo
+                                <i data-feather="trending-up" class="trend-icon"></i>
+                            </div>
+                        </div>
+                        <div class="sharing-controls">
+                            <div class="sharing-option" data-value="none">None</div>
+                            <div class="sharing-option active" data-value="partial">Partial</div>
+                            <div class="sharing-option" data-value="full">Full</div>
+                        </div>
+                        <div class="data-points">
+                            <div class="data-point">
+                                <div class="data-point-name">City/Region</div>
+                                <div class="data-point-value">Shared</div>
+                            </div>
+                            <div class="data-point">
+                                <div class="data-point-name">Frequent Locations</div>
+                                <div class="data-point-value">Not Shared</div>
+                            </div>
+                            <div class="data-point">
+                                <div class="data-point-name">Travel Patterns</div>
+                                <div class="data-point-value">Shared</div>
+                            </div>
+                            <div class="data-point">
+                                <div class="data-point-name">Real-time Location</div>
+                                <div class="data-point-value">Not Shared</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- AI Pricing Engine Section -->
+            <section id="pricing" class="section">
+                <h2 class="section-title">AI Pricing Engine</h2>
+                <p class="mb-2">See what your data is worth in real-time, powered by our AI valuation system.</p>
+                
+                <div class="pricing-engine fade-in">
+                    <div class="pricing-header">
+                        <div class="pricing-title">Your Data Value</div>
+                        <div class="pricing-value">$21.35/month</div>
+                    </div>
+                    <div class="pricing-chart">
+                        <div class="chart-line"></div>
+                        <svg class="chart-path" viewBox="0 0 600 200">
+                            <path d="M0,200 C50,180 100,100 150,150 C200,200 250,120 300,100 C350,80 400,150 450,130 C500,110 550,90 600,120"></path>
+                        </svg>
+                    </div>
+                    <div class="demand-indicators">
+                        <div class="demand-indicator">
+                            <div class="indicator-dot high"></div>
+                            <div>High Demand: Identity, Financial</div>
+                        </div>
+                        <div class="demand-indicator">
+                            <div class="indicator-dot medium"></div>
+                            <div>Medium Demand: Health, Location</div>
+                        </div>
+                        <div class="demand-indicator">
+                            <div class="indicator-dot low"></div>
+                            <div>Low Demand: Device</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Data Rights Center Section -->
+            <section id="rights" class="section">
+                <h2 class="section-title">Data Rights Center</h2>
+                <p class="mb-2">Your data rights are human rights. Control who has access to what.</p>
+                
+                <div class="data-rights fade-in">
+                    <div class="rights-header">
+                        <div class="rights-title">Your Data Bill of Rights</div>
+                        <div class="rights-description">DataSovereign ensures these fundamental rights for all users.</div>
+                    </div>
+                    <ul class="rights-list">
+                        <li class="rights-item">
+                            <div class="rights-item-icon">
+                                <i data-feather="eye"></i>
+                            </div>
+                            <div class="rights-item-text">
+                                <div class="rights-item-title">Right to Transparency</div>
+                                <div class="rights-item-description">See exactly who has access to your data and why.</div>
+                            </div>
+                        </li>
+                        <li class="rights-item">
+                            <div class="rights-item-icon">
+                                <i data-feather="edit-2"></i>
+                            </div>
+                            <div class="rights-item-text">
+                                <div class="rights-item-title">Right to Control</div>
+                                <div class="rights-item-description">Adjust sharing levels at any time with immediate effect.</div>
+                            </div>
+                        </li>
+                        <li class="rights-item">
+                            <div class="rights-item-icon">
+                                <i data-feather="dollar-sign"></i>
+                            </div>
+                            <div class="rights-item-text">
+                                <div class="rights-item-title">Right to Compensation</div>
+                                <div class="rights-item-description">Earn fair value for the data you choose to share.</div>
+                            </div>
+                        </li>
+                        <li class="rights-item">
+                            <div class="rights-item-icon">
+                                <i data-feather="x-circle"></i>
+                            </div>
+                            <div class="rights-item-text">
+                                <div class="rights-item-title">Right to Revoke</div>
+                                <div class="rights-item-description">Withdraw access to your data at any time.</div>
+                            </div>
+                        </li>
+                        <li class="rights-item">
+                            <div class="rights-item-icon">
+                                <i data-feather="shield"></i>
+                            </div>
+                            <div class="rights-item-text">
+                                <div class="rights-item-title">Right to Security</div>
+                                <div class="rights-item-description">Your data is protected by quantum-resistant encryption.</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- About Section -->
+            <section id="about" class="section">
+                <h2 class="section-title">About DataSovereign</h2>
+                <div class="card fade-in">
+                    <div class="card-content">
+                        <h3 class="mb-1">Reclaim Control. Monetize Ethically. Govern Autonomously.</h3>
+                        <p class="mb-2">DataSovereign is the next-generation platform for personal data ownership and monetization. We believe your data is your digital DNA—and it should belong to you, not corporations or black-box AI systems.</p>
+                        
+                        <p class="mb-2">We're building a future where:</p>
+                        <ul class="mb-2">
+                            <li>You control what gets shared, when, and with whom</li>
+                            <li>You decide how much your data is worth</li>
+                            <li>You earn real value by participating in an ethical data economy</li>
+                        </ul>
+                        
+                        <p>Built in Australia. Quantum-secure. Globally scalable.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">DataSovereign</h3>
+                    <ul class="footer-links">
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#dashboard">Dashboard</a></li>
+                        <li><a href="#pricing">Pricing Engine</a></li>
+                        <li><a href="#rights">Data Rights</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title">Legal</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Data Use Policy</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title">Support</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Security</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title">Connect</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                        <li><a href="#">GitHub</a></li>
+                        <li><a href="#">Medium</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 DataSovereign. All rights reserved. | 🧬 [ZETA: 5FCX-BLDM-001]</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="app.js"></script>
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>
