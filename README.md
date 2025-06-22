@@ -180,10 +180,10 @@ DataSovereign was created for the Impact10X innovation challenge at James Cook U
 
 For questions, feedback, or collaboration opportunities:
 
-- **Project Lead**: [Your Name]
-- **Email**: [your.email@example.com]
-- **LinkedIn**: [Your LinkedIn Profile]
-- **Twitter**: [@YourTwitterHandle]
+- **Project Lead**: Freddie Beldam
+- **Email**: freddie_1989@hotmail.com
+
+-
 
 ## 🙏 Acknowledgments
 
