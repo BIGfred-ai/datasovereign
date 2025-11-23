@@ -69,7 +69,7 @@ DataSovereign is built with a modern, scalable architecture designed for rapid d
 ### Quick Start
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/datasovereign.git
+   git clone https://github.com/BIGfred-ai/datasovereign.git
    cd datasovereign
    ```
 
@@ -182,8 +182,6 @@ For questions, feedback, or collaboration opportunities:
 
 - **Project Lead**: Freddie Beldam
 - **Email**: freddie_1989@hotmail.com
-
--
 
 ## 🙏 Acknowledgments
 
