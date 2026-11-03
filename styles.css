@@ -612,3 +612,31 @@ footer {
 .text-high-demand { color: var(--high-demand); }
 .text-data-risk { color: var(--data-risk); }
 .text-earning-now { color: var(--earning-now); }
+
+/* Accessible prototype controls and plain-language notices */
+.sharing-option {
+  appearance: none;
+  border: 0;
+  background: transparent;
+  color: var(--text-primary);
+  font: inherit;
+  min-height: 44px;
+}
+.sharing-option:hover { background: rgba(255,255,255,.08); }
+.sharing-option:focus-visible, a:focus-visible {
+  outline: 3px solid var(--secondary);
+  outline-offset: 2px;
+}
+.demo-note {
+  border-left: 3px solid var(--secondary);
+  padding: 10px 14px;
+  color: var(--text-secondary);
+  background: var(--surface);
+  border-radius: 0 8px 8px 0;
+  margin-bottom: 18px;
+}
+.quantum-badge { max-width: min(94vw, 420px); }
+.quantum-status { display: none; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
+}
